@@ -36,9 +36,9 @@ nav {
 	font-weight: 700;
 	background-color: #ccc;
 	padding: 15px 0 15px 15px;
-	position: fixed;
-	top: 0;
-	width: 100%;
+	/*position: fixed;*/
+	/*top: 0;*/
+	/*width: 100%;*/
 }
 
 .fa.fa-pencil-square-o {
@@ -54,7 +54,7 @@ nav {
 	font-size: 10px;
 	float: left;
 	margin-top: 100px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin-left: 15px;
 	padding: 0 15px 0 0;
 	position: fixed;
@@ -68,19 +68,25 @@ nav {
 	text-decoration: none;
 	border: 1px solid black;
 	margin: 3px;
-	padding: 3px 5px 3px 5px;
+	padding: 5px 10px 5px 10px;
 }
+
 .left-nav ul li a {
 	
 	text-decoration: none;
 }	
+.left-nav ul li:hover  {
+	
+	background-color: orange;
+	font-weight: bold;
+}
 	
 .container {
 
 	font-family: 'Roboto', sans-serif;
 	margin: 100px 385px 0 385px;
 	width: 65%;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 
 	
 }
