@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-
 <html>
-	<head>
-		<title>Responsive CSS</title>
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" href="style.css">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>REsponsive CSS Notes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
 	<body>
-		<nav>
-			<i class="fa fa-pencil-square-o"></i>Responsive CSS notes
-			
 
-		</nav>
+	<!------------------------>
+		<header><h1><span class="icon" id="home"><i class="fa fa-pencil-square-o"></i></span><span>Responsive CSS Notes</span></h1></header>
+	<!------------------------>
+		<nav><a href="#">Home</a></nav>
+	<!----------MAIN---------->
+		<main>
+	<!------------------------>		
+		<div class="left-box">
 
-			<div class="left-nav">
-
+			<aside class="sticky">
+				<h3></h3>
 				<ul>
+					<li><a href="#home">Home</a></li>
 					<li><a href="#start">Start</a></li>
 					<li><a href="#txt-formatting">Text formatting</a></li>		
 					<li><a href="#fonts-styling">Fonts and Font Styling</a></li>
@@ -34,30 +36,23 @@
 					<li><a href="#overflow">Overflow</a></li>
 					<li><a href="#float-and-clear">Float and Clear</a></li>
 					<li><a href="#advanced-selectors">Advanced Selectors</a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>				
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
+				</ul>	
+			</aside>
+		</div>
+	<!------------------------>
+	<!------------------------>
+		<div class="right-box">
+		<!-------RIGHT-BOX---->
+		<!-------Section------>
+			<section>
+				<h1>Introduction</h1>
 
-				</ul>
+				<p>Say something about the topic.</p>
 				
-
-			</div>
-
-			<div class="container">
-
-				<h1 name="top">CSS2</h1>
-
-					<p>CSS stands for Cascading Style Sheets it is a language that is used to describe the presentation of a HTML docuement.</p>
-
-					<section>
-						<h2 id="start">Start</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="start">Start</h2>
 
 						<ul>
 							<li>Color Types</li>
@@ -72,13 +67,10 @@
 							<li>Outline</li>
 							<li>Cursor</li>
 						</ul>
-
-
-					</section>
-					<!------------->
-				
-					<section>
-						<h2 id="txt-formatting">Text Formatting</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="txt-formatting">Text Formatting</h2>
 
 						<ul>
 							<li>Text Color</li>
@@ -90,12 +82,11 @@
 							<li>Line Height</li>
 							<li>Direction</li>
 							<li>Word Spacing</li>
-						</ul>
-
-					</section>
-				<!------------->
-					<section>
-						<h2 id="fonts-styling">Fonts and Font Styling</h2>
+						</ul>				
+			</section>			
+		<!-------Section------>
+			<section>
+				<h2 id="fonts-styling">Fonts and Font Styling</h2>
 
 						<ul>
 							<li>Serif vs. Sans Serif</li>
@@ -107,22 +98,20 @@
 							<li>Forn Variant</li>
 							<li>Font Awesome</li>
 						</ul>
-
-
-					</section>
-				<!------------->
-					<section>
-						<h2 id="links-states">Links and States</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="links-states">Links and States</h2>
 
 						<ul>
 							<li>Hover Over Links</li>
 							<li>Visited Links</li>
 							<li>Active Links</li>
 						</ul>
-					</section>S
-					<!------------->
-					<section>
-						<h2 id="selectors">Selectors</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="selectors">Selectors</h2>
 
 						<ul>
 							<li>Grouping Selectors</li>
@@ -130,30 +119,30 @@
 							<li>Child Selectors</li>
 							<li>Adjacent Selectors</li>
 						</ul>
-					</section>
-					<!------------->
-					<section>
-						<h2 id="lists">Lists</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="lists">Lists</h2>
 
 						<ul>
 							<li>List Style Type</li>
 							<li>List Style Position</li>
 							<li>List Style Image</li>
 						</ul>
-					</section>
-					<!------------->
-					<section>
-						<h2 id="tables">Tables</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="tables">Tables</h2>
 
 						<ul>
 							<li>Table Borders</li>
 							<li>Table Cell Vertical Align</li>
 							<li>Table Row Hover Effect</li>
 						</ul>
-					</section>
-					<!------------->
-					<section>
-						<h2 id="display">Display</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="display">Display</h2>
 
 						<ul>
 							<li>Display Block</li>
@@ -161,169 +150,71 @@
 							<li>Display Inline-Block</li>
 							<li>Display None</li>
 						</ul>
-					</section>
-					<!------------->
-					<section>
-						<h2 id="sizing-elements">Sizing Elements</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="sizing-elements">Sizing Elements</h2>
 
 						<ul>
 							<li>Width</li>
-							<li>Height</li>
-						
+							<li>Height</li>						
 						</ul>
-					</section>
-					<!------------->
-					<section>
-						<h2 id="positions">Positions</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="positions">Positions</h2>
 
 						<ul>
 							<li>Position Relative</li>
 							<li>Position Absolute</li>
 							<li>Position Fixed</li>
-							<li>Overlapping Elements with Z-Index</li>
-						
+							<li>Overlapping Elements with Z-Index</li>					
 						</ul>
-					</section>
-					<!------------->
-					<section>
-						<h2 id="overflow">Overflow</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="overflow">Overflow</h2>
 
 						<ul>
 							<li>Overflow Scroll</li>
 							<li>Overflow Auto</li>
-							<li>Overflow Hidden</li>
-									
+							<li>Overflow Hidden</li>									
 						</ul>
-					</section>
-						<!------------->
-					<section>
-						<h2 id="float-and-clear">Float and Clear</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="float-and-clear">Float and Clear</h2>
 
 						<ul>
 							<li>Float Left & Right</li>
 							<li>Clear</li>
 							<li>Clearfix Hack</li>
-							<li>Opacity</li>
-												
+							<li>Opacity</li>											
 						</ul>
-					</section>
-						<!------------->
-					<section>
-						<h2 id="advanced-selectors">Advanced Selectors</h2>
+			</section>
+		<!-------Section------>
+			<section>
+				<h2 id="advanced-selectors">Advanced Selectors</h2>
 
 						<ul>
 							<li>Attribute Selector</li>
 							<li>Exact Value Selector</li>
 							<li>Contains Value Selector</li>
 							<li>Start With Selector</li>
-							<li>Ends With Selector</li>
-												
+							<li>Ends With Selector</li>									
 						</ul>
-					</section>
-						<!------------->
-					<section>
-						<h2 id=""></h2>
+			</section>
+		<!-------Section------>
+			<section>
+				
+			</section>
+		<!-------Section------>
+		<!----RIGHT-BOX-END--->
+		</div>
+	<!------------------------>
+		</main>
+	<!------------------------>	
+		<footer>This is the footer</footer>
 
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						
-						</ul>
-					</section>
-						<!------------->
-					<section>
-						<h2 id=""></h2>
-
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						
-						</ul>
-					</section>
-						<!------------->
-					<section>
-						<h2 id=""></h2>
-
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						
-						</ul>
-					</section>
-						<!------------->
-					<section>
-						<h2 id=""></h2>
-
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						
-						</ul>
-					</section>
-						<!------------->
-					<section>
-						<h2 id=""></h2>
-
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						
-						</ul>
-					</section>
-						<!------------->
-					<section>
-						<h2 id=""></h2>
-
-						<ul>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-						
-						</ul>
-					</section>
-
-			
-			</div>
-
-			
-
-
-		<footer><span>This is the footer</span></footer>
 	</body>
-
 </html>
