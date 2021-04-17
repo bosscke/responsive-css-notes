@@ -37,7 +37,7 @@
 					<li><a href="#float-and-clear">Float and Clear</a></li>
 					<li><a href="#advanced-selectors">Advanced Selectors</a></li>
 					<li><a href="#pseudo-selectors">Pseudo Selectors</a></li>
-					<li><a href="#css3">CSS#</a></li>
+					<li><a href="#css3">CSS3</a></li>
 					<li><a href="#rounding-corners">Rounding Corners</a></li>
 					<li><a href="#background-images">Background Images</a></li>
 					<li><a href="#new-color-properties">New Color Properties</a></li>
@@ -564,6 +564,11 @@
 							<p>Has nothing to do with clear, but works in certain scenarios.</p>
 							<code>overflow: auto;</code>
 						</article>
+
+						<article>
+							<h3>Opacity</h3>
+							<code>opactity: .15;</code>
+						</article>
 			</section>
 			</section>
 		<!-------Section------>
@@ -577,6 +582,40 @@
 							<li>Start With Selector</li>
 							<li>Ends With Selector</li>									
 						</ul>
+						<article>
+							<h3>Attribute Selector</h3>
+							<code>
+								input [type] {	}
+							</code>
+						</article>
+
+						<article>
+							<h3>Exact Value Selector</h3>
+							<code>
+								[type="text"] { }
+							</code>
+						</article>
+
+						<article>
+							<h3>Contains Value Selector</h3>
+							<code>
+								.box[~="test"] { }
+							</code>
+						</article>
+
+						<article>
+							<h3>Start with Selector</h3>
+							<code>
+								a[href^="https"]
+							</code>
+						</article>
+
+						<article>
+							<h3>End with Selector</h3>
+							<code>
+								a[href$=".pdf"]
+							</code>
+						</article>
 			</section>
 		<!-------Section------>
 			<section>
