@@ -624,12 +624,78 @@
 						<ul>
 							<li>Hover Selector</li>
 							<li>First Child Selector</li>
+							<li>Last Child Selector</li>
 							<li>Focus Selector</li>
 							<li>Checked Selector</li>
 							<li>Disabled Selector</li>
 							<li>Enabled Selector</li>
 							<li>Not Selector</li>
 						</ul>
+
+						<article>
+							<h3>Hover Selector</h3>
+							<code>
+								a:hover { }
+							</code>
+						</article>
+						
+						<article>
+							<h3>First Child Selector</h3>
+							<code>
+								p:first-child { }
+							</code>
+						</article>
+
+						<article>
+							<h3>Last Child Selector</h3>
+							<code>
+								p:last-child { }
+							</code>
+						</article>
+
+						<article>
+							<h3>Focus Selector</h3>
+							<code>
+								p:focus { }
+							</code>
+						</article>
+
+						<article>
+							<h3>Checked Selector</h3>
+							<code>
+								input[type='checkbox']:checked { }
+							</code>
+						</article>
+
+						<article>
+							<h3>Disabled Selector</h3>
+							<code>
+								input:disabled { }
+							</code>
+						</article>
+
+						<article>
+							<h3>Enabled Selector</h3>
+							<code>
+								input:enabled { }
+							</code>
+						</article>
+
+						<article>
+							<h3>Not Selector</h3>
+							<p>Select things you don't want tot select. Select the one without class test. </p>
+							<code>
+								p:not(.test) {
+									color: red;
+								  }
+							</code><br><br>
+
+							<code>
+								&lt;p class="test"&gt;test1&lt;/p&gt;<br>
+								&lt;p&gt;test1&lt;/p&gt;<br>
+								&lt;p class="test"&gt;test1&lt;/p&gt;
+							</code>
+						</article>
 			</section>
 		<!-------Section------>
 			<section>
