@@ -52,6 +52,7 @@ code {
 
 h1 {
   color: #3939ac;
+  display: inline-block;
 }
 
 .H1 {
